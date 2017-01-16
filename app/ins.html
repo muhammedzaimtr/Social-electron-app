@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Social</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
+    <style media="screen">
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+        header {
+            height: 10vh;
+        }
+        webview {
+            height: 90vh;
+        }
+    </style>
+  </head>
+  <body>
+      <header>
+
+        <div class="full">
+            <div class="row">
+                <div class="col-3-sm">
+                    <a href="fb.html">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-3-sm">
+                    <a href="t.html">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-3-sm">
+                    <a href="ins.html">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-3-sm">
+                    <a href="yt.html">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+      </header>
+
+    <webview src="https://instagram.com/" autosize="on" minheight="100%"></webview>
+
+        <span class="refresh">
+          <a href=""><i class="fa fa-refresh"></i></a>
+        </span>
+        <script src="refresh.js"></script>
+
+      </body>
+</html>
